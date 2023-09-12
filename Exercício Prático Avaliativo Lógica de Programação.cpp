@@ -11,7 +11,7 @@ int main(){
 		printf("\n Digite o nome do vendedor: ");
 		scanf("%s", &nomes[i]);
 		for(j=0; j<3; j++){
-			printf("\n Digite o valor de vendas do mês %i do vendedor %i: ", j+1, i+1);
+			printf("\n Digite o valor de vendas do mÃªs %i do vendedor %i: ", j+1, i+1);
 			scanf("%i", &mat[i][j]);
 		}
 	}
@@ -38,12 +38,12 @@ int main(){
 	for(i=0; i<5; i++){
 		if(strcmp(nomes[i], busca) == 0){
 			achou = 1;
-			printf("\n Nome do vendedor: %s, Vendas do mês 1: %i, Vendas do mês 2: %i, Vendas do mês 3: %i, Média: %.2f ", nomes[i], mat[i][0], mat[i][1], mat[i][2], vetm[i]);
+			printf("\n Nome do vendedor: %s, Vendas do mÃªs 1: %i, Vendas do mÃªs 2: %i, Vendas do mÃªs 3: %i, MÃ©dia: %.2f ", nomes[i], mat[i][0], mat[i][1], mat[i][2], vetm[i]);
 			break;
 		}
 	}
 	if (!achou){
-		printf("\n Vendedor não encontrado.");
+		printf("\n Vendedor nÃ£o encontrado.");
 	}
 	for(i=0; i<5; i++){
 		for(j=1; j<2; j++){
@@ -52,11 +52,11 @@ int main(){
 			}
 		}
 	}
-	printf("\n Relatório: ");
+	printf("\n RelatÃ³rio: ");
 	for(i=0; i<5; i++){
-		printf("\n Vendedor: %s, Média: %.2f ", nomes[i], vetm[i]);
+		printf("\n Vendedor: %s, MÃ©dia: %.2f ", nomes[i], vetm[i]);
 	}
-	printf("\n Valor total das vendas nos três meses do segundo vendedor (%s): %i ", nomes[1], stot);
-	printf("\n Quantidade de vendedores que venderam mais que 2000,00 no segundo mês: %i ", qtd);
+	printf("\n Valor total das vendas nos trÃªs meses do segundo vendedor (%s): %i ", nomes[1], stot);
+	printf("\n Quantidade de vendedores que venderam mais que 2000,00 no segundo mÃªs: %i ", qtd);
 	return 0;
 }
