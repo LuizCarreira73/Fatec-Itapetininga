@@ -1,1 +1,1 @@
-Códigos feitos nas matérias de programação na Fatec Itapetininga
+Códigos feitos nas matérias de programação na FATEC Itapetininga
