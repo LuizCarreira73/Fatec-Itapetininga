@@ -1,1 +1,1 @@
-Códigos feitos nas matérias de programação na FATEC Itapetininga
+Aprendizado de algorítmos, lógica e estrutura de dados em C++ durante a minha faculdade
